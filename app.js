@@ -3,7 +3,7 @@ const fs = require('fs');
 var app = express();
 const PORT = process.env.PORT || 3000;
 
-fs.readFile('.git/FETCH_HEAD', function read(err, data) {
+fs.readFile('.config.json', function read(err, data) {
     if (err) {
         throw err;
     }
