@@ -25,3 +25,11 @@ app.get('/', function (req, res) {
 app.listen(PORT, function () {
     console.log(`Example app listening on port ${PORT}!`);
 });
+
+function countToTen() {
+    for(var i = 1; i <= 10; i++) {
+        console.log(i);
+    }
+}
+
+countToTen();
