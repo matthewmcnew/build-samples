@@ -16,7 +16,7 @@ app.get('/', function (req, res) {
         if (err) {
             throw err;
         }
-        res.status(200).send("hello this was built from : " + data.toString())
+        res.status(200).send("hello this was built from -- : " + data.toString())
     });
 
 });
